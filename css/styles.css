@@ -83,8 +83,15 @@ body {
 }
 /* --------------header-------------- */
 .header {
+  padding: 24px 0;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
 }
 .header-navigation {
+  display: flex;
+  align-items: center;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -96,6 +103,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .header-logo-text {
   color: #2e2f42;
@@ -110,6 +118,8 @@ body {
   flex-grow: 0;
 }
 .header-list {
+  display: flex;
+  gap: 40px;
 }
 .header-item {
 }
@@ -128,6 +138,8 @@ body {
 .header-address {
 }
 .header-address-list {
+  display: flex;
+  gap: 40px;
 }
 .header-address-item {
 }
