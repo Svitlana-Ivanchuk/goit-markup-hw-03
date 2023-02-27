@@ -5,6 +5,7 @@
   --main-title-color: #2e2f42;
   --background-dark: #2e2f42;
   --background-light: #f4f4fd;
+  --main-border-btn: #e7e9fc;
 }
 h1,
 h2,
@@ -88,7 +89,7 @@ img {
 /* --------------header-------------- */
 .header {
   padding: 24px 0;
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--main-border-btn);
 }
 .header-container {
   display: flex;
@@ -323,7 +324,7 @@ img {
   text-align: center;
   color: #4d5ae5;
   background: #f4f4fd;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--main-border-btn);
   border-radius: 4px;
 }
 .portfolio-btn:hover,
@@ -345,7 +346,9 @@ img {
 }
 .portfolio-card {
   padding: 32px 0 32px 16px;
-  border: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--main-border-btn);
+  border-left: 1px solid var(--main-border-btn);
+  border-right: 1px solid var(--main-border-btn);
   background: #ffffff;
 }
 .portfolio-subtitle {
