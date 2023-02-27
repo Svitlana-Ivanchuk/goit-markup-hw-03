@@ -170,18 +170,22 @@ body {
 /* --------hero----------- */
 .hero {
   background: var(--background-dark);
+  padding: 188px 0;
 }
 .hero-title {
+  width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin: 0 auto 48px;
 }
 .hero-btn {
   color: #ffffff;
   background: #4d5ae5;
+  margin: 0 auto;
 }
 .hero-btn:hover,
 .hero-btn:focus {
