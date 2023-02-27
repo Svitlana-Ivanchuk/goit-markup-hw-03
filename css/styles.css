@@ -70,6 +70,7 @@ img {
   display: flex;
   align-items: center;
   cursor: pointer;
+  border: none;
 }
 
 .visually-hidden {
@@ -111,15 +112,9 @@ img {
 }
 .header-logo-text {
   color: #2e2f42;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .header-logo-text > span {
   color: #4d5ae5;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .header-list {
   display: flex;
@@ -266,6 +261,7 @@ img {
 }
 .team-content {
   padding: 32px 16px;
+  background: #ffffff;
 }
 .team-subtitle {
   text-align: center;
@@ -282,32 +278,24 @@ img {
 /* --------footer----------- */
 
 .footer {
-  padding: 100px 156px;
+  padding: 100px 0;
   background: var(--background-dark);
 }
 .footer-logo {
+  min-width: 115px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
+  display: inline-block;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 16px;
-}
-.footer-logo-text {
   color: #f4f4fd;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
-.footer-logo-text > span {
+.footer-logo > span {
   color: #4d5ae5;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .footer-text {
   max-width: 264px;
@@ -331,9 +319,12 @@ img {
 }
 
 .portfolio-btn {
+  padding: 12px 24px;
   text-align: center;
   color: #4d5ae5;
   background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -353,7 +344,9 @@ img {
 .portfolio-link {
 }
 .portfolio-card {
-  padding: 32px 0;
+  padding: 32px 0 32px 16px;
+  border: 1px solid #e7e9fc;
+  background: #ffffff;
 }
 .portfolio-subtitle {
 }
